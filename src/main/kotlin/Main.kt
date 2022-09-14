@@ -1,8 +1,7 @@
 fun main(args: Array<String>) {
-    println(fizzBuzz(178))
-    //for (i in 5000..1000000) {
-    //    println("$i "+fizzBuzz(i))
-    //}
+    for (i in 1..1000000) {
+        println("$i "+fizzBuzz(i))
+    }
 }
 
 fun fizzBuzz(value: Int): String{
